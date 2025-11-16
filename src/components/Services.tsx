@@ -1,17 +1,22 @@
-import { FiUser, FiUsers, FiActivity, FiFileText, FiHeart, FiScissors, FiBriefcase, FiHome } from 'react-icons/fi'
+import { FiUsers } from 'react-icons/fi'
+import { FaFileMedicalAlt, FaRegSadCry, FaMoneyBill, FaFileArchive, FaUsers, FaFileMedical  } from "react-icons/fa";
+import { FaChild } from "react-icons/fa6";
+import { RiPsychotherapyLine } from "react-icons/ri";
+import { PiMaskSadDuotone } from "react-icons/pi";
+
 
 const Services = () => {
   const services = [
-    { icon: <FiUsers className="w-6 h-6" />, title: 'Transtorno de ansiedade' },
-    { icon: <FiUser className="w-6 h-6" />, title: 'Transtorno depressivo' },
-    { icon: <FiActivity className="w-6 h-6" />, title: 'Transtorno de personalidade' },
-    { icon: <FiFileText className="w-6 h-6" />, title: 'Crises de pânico' },
-    { icon: <FiFileText className="w-6 h-6" />, title: 'Vícios em Jogos eletrônicos e casas de apostas' },
-    { icon: <FiBriefcase className="w-6 h-6" />, title: 'Conflitos de casais' },
-    { icon: <FiHeart className="w-6 h-6" />, title: 'Terapia infantil dificuldades de aprendizagem' },
-    { icon: <FiScissors className="w-6 h-6" />, title: 'Emissão de documentos: Laudo psicológico' },
-    { icon: <FiActivity className="w-6 h-6" />, title: 'Relatório psicológico' },
-    { icon: <FiUsers className="w-6 h-6" />, title: 'Declarações e atestados' },
+    { icon: <RiPsychotherapyLine className="w-6 h-6" />, title: 'Transtorno de ansiedade' },
+    { icon: <PiMaskSadDuotone className="w-6 h-6" />, title: 'Transtorno depressivo' },
+    { icon: <FaUsers className="w-6 h-6" />, title: 'Transtorno de personalidade' },
+    { icon: <FaRegSadCry className="w-6 h-6" />, title: 'Crises de pânico' },
+    { icon: <FaMoneyBill className="w-6 h-6" />, title: 'Vícios em Jogos eletrônicos e casas de apostas' },
+    { icon: <FiUsers className="w-6 h-6" />, title: 'Conflitos de casais' },
+    { icon: <FaChild className="w-6 h-6" />, title: 'Terapia infantil dificuldades de aprendizagem' },
+    { icon: <FaFileMedicalAlt className="w-6 h-6" />, title: 'Emissão de documentos: Laudo psicológico' },
+    { icon: <FaFileMedical className="w-6 h-6" />, title: 'Relatório psicológico' },
+    { icon: <FaFileArchive className="w-6 h-6" />, title: 'Declarações e atestados' },
   ]
 
   return (

@@ -4,32 +4,39 @@ import { FiChevronDown, FiChevronUp } from 'react-icons/fi'
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0)
 
-  const faqs = [
-    {
-      question: 'O que é a terapia?',
-      answer: 'A terapia, também conhecida como psicoterapia, é um processo de autodescoberta, acolhimento e mudança. Ela é um espaço seguro e confidencial, conduzido por um psicólogo(a) habilitado(a), onde você pode falar abertamente sobre seus sentimentos, pensamentos, dificuldades e desafios da vida. O objetivo é ajudar você a compreender suas emoções, padrões de comportamento e a desenvolver ferramentas e estratégias para lidar melhor com suas questões, promovendo saúde mental, bem-estar e qualidade de vida.',
-    },
-    {
-      question: 'Como funciona o atendimento online?',
-      answer: 'O atendimento psicológico online é realizado por meio de videochamadas em plataformas seguras e adequadas (como Google Meet, Zoom ou outras, dependendo da sua preferência). O funcionamento é muito semelhante ao presencial: agendamos um horário, você acessa o link no momento da sessão e a conversa acontece de forma privada e confidencial. É necessário apenas ter uma boa conexão com a internet, um local reservado onde você não será interrompido e fones de ouvido para garantir sua privacidade. É uma modalidade prática, flexível e igualmente eficaz.',
-    },
-    {
-      question: 'Terapia Online e presencial é a mesma coisa?',
-      answer: 'Em termos de eficácia e resultados, sim, são a mesma coisa. O que muda é apenas o formato da interação. Ambos os modelos são regulamentados pelo Conselho Federal de Psicologia (CFP) e aplicam as mesmas técnicas e abordagens. A conexão terapêutica (o vínculo entre você e o psicólogo) pode ser estabelecida de forma plena tanto presencialmente quanto online. A escolha entre os dois modelos depende da sua preferência, rotina e necessidades de praticidade.',
-    },
-    {
-      question: 'Qual o tempo de terapia?',
-      answer: 'O tempo de duração de uma terapia é individual e variável. Depende da natureza da sua demanda, da sua dedicação ao processo e dos objetivos que definirmos juntos. Para algumas questões pontuais, o processo pode ser mais breve. Para questões mais profundas e de longa data, a terapia tende a ser de médio a longo prazo. O importante é que o processo é colaborativo: avaliamos seu progresso juntos periodicamente e você tem a liberdade de decidir, com meu apoio, quando encerrar ou pausar as sessões.',
-    },
-    {
-      question: 'Quantas sessões vou precisar?',
-      answer: 'As sessões geralmente ocorrem uma vez por semana, com duração de 50 minutos. No entanto, a frequência pode ser ajustada para quinzenal ou mais intensiva (duas vezes por semana), dependendo da sua necessidade e fase do tratamento. O número total de sessões é impossível prever no início, mas é algo que avaliaremos e discutiremos ao longo do processo, garantindo que você esteja sempre no controle e confortável com seu tratamento.',
-    },
-    {
-      question: 'O pagamento é seguro?',
-      answer: 'Sim, a segurança do seu pagamento é uma prioridade. Utilizamos plataformas de pagamento reconhecidas e seguras (mencione os métodos que você aceita, ex: Pix, transferência bancária, cartões via PagSeguro/Stripe, etc.) que garantem a proteção de seus dados financeiros. Os valores e a forma de pagamento são sempre combinados previamente e de forma transparente.',
-    },
-  ]
+const faqs = [
+  {
+    question: 'O que é a terapia?',
+    answer:
+      'A terapia é um processo psicológico guiado por um profissional habilitado, que ajuda você a lidar com ansiedade, depressão, estresse, autoestima baixa e conflitos pessoais. Ao buscar um psicólogo TCC, você aprende a identificar e modificar pensamentos e comportamentos que causam sofrimento. O Psicólogo Sidnei oferece psicoterapia on-line e presencial em Novo Horizonte – SP, ideal para quem procura um psicólogo perto de mim ou deseja atendimento rápido e acessível no Brasil.',
+  },
+  {
+    question: 'Como funciona o atendimento online?',
+    answer:
+      'O atendimento psicológico online é realizado por videochamada segura e sigilosa, permitindo que você tenha acesso a um psicólogo no Brasil sem sair de casa. A modalidade é indicada para quem busca terapia TCC, tratamento de ansiedade, tratamento de depressão, terapia infantil, terapia para criança e terapia de casal. Para quem procura praticidade, o atendimento on-line com o Psicólogo Sidnei é uma alternativa eficiente ao psicólogo 24h, pois oferece suporte ágil, orientação profissional e flexibilidade de horários.',
+  },
+  {
+    question: 'Terapia online e presencial é a mesma coisa?',
+    answer:
+      'Sim. Tanto a terapia online quanto a presencial seguem as mesmas técnicas da Terapia Cognitivo-Comportamental (TCC), garantindo resultados comprovados no tratamento da ansiedade, depressão, dependência emocional e questões familiares. Para quem procura psicólogo perto de mim em Novo Horizonte – SP, o Psicólogo Sidnei oferece sessões presenciais. Já para quem precisa de um psicólogo no Brasil, o atendimento online permite acesso imediato de qualquer região.',
+  },
+  {
+    question: 'Qual é o tempo de terapia?',
+    answer:
+      'O tempo de terapia varia conforme a demanda. No tratamento de ansiedade e depressão, por exemplo, muitos pacientes apresentam melhora nas primeiras semanas com a TCC. Em casos de terapia infantil ou terapia de casal, a duração pode ser diferente. O mais importante é que o processo é personalizado, avaliando sua evolução a cada sessão com o Psicólogo Sidnei, seja online ou em Novo Horizonte – SP.',
+  },
+  {
+    question: 'Quantas sessões vou precisar?',
+    answer:
+      'A maioria dos pacientes realiza uma sessão por semana, mas isso pode variar. Pessoas buscando tratamento de ansiedade, depressão, laudo psicológico ou terapia de casal podem precisar de maior frequência inicial. Já no acompanhamento infantil, o ritmo depende da idade da criança e do objetivo terapêutico. O Psicólogo Sidnei orienta cada caso individualmente, garantindo que o tratamento seja eficaz e adequado à sua rotina.',
+  },
+  {
+    question: 'O pagamento é seguro?',
+    answer:
+      'Sim. Todas as sessões com o Psicólogo Sidnei, tanto on-line quanto presenciais em Novo Horizonte – SP, possuem métodos de pagamento seguros e confiáveis. Os dados são protegidos e você escolhe entre Pix, transferência ou outras opções. Para solicitações como laudo psicológico, terapia infantil, terapia de casal ou tratamento de ansiedade, o processo é sempre transparente e realizado dentro das normas profissionais.',
+  },
+]
+
 
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index)

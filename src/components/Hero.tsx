@@ -25,19 +25,20 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-           <a
-            href="https://wa.me/5517991869977"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-xl font-semibold shadow-md
-                      transition-all duration-300 hover:bg-[#128C7E] hover:shadow-lg"
-          >
-            <FaWhatsapp size={20} />
-            AGENDE PELO WHATSAPP
-          </a>
+         <a
+          href="https://wa.me/5517991869977?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20psicoterapia."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-xl font-semibold shadow-md
+            transition-all duration-300 hover:bg-[#128C7E] hover:shadow-lg"
+        >
+          <FaWhatsapp size={20} />
+          AGENDE PELO WHATSAPP
+        </a>
 
             <a
-              href="#contato"
+              href="https://maps.app.goo.gl/XkNvs1FnxF66gpnE8"
+              target="_blank"
               className="btn-secondary inline-flex items-center justify-center gap-2"
             >
               <FcShop size={20} />
