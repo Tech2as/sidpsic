@@ -15,7 +15,7 @@ const Header = () => {
 
   const menuItems = [
     { label: 'Home', href: '#home' },
-    { label: 'Benefícios da Terapia', href: '#beneficios' },
+    { label: 'Benefícios da Psicoterapia', href: '#beneficios' },
     { label: 'Sobre Mim', href: '#sobre' },
     { label: 'Como Funciona', href: '#como-funciona' },
     { label: 'Contato', href: '#contato' },

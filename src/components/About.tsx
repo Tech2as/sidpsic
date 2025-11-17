@@ -27,7 +27,7 @@ const About = () => {
               </p>
 
               <p>
-               A TCC é uma abordagem cientificamente comprovada e baseada em evidênclas, o. que a torna altamente eficaz e procurada para promover resultados práticos e duradouros na saúde mental Apesar da base clentifica, a prática de Sidnei também é gulada por seus valores cristãos, oferecendo um espaço de acolhimento, respeito e humanização em cada sessão
+               A TCC é uma abordagem cientificamente comprovada e baseada em evidências, o que a torna altamente eficaz e procurada para promover resultados práticos e duradouros na saúde mental. Apesar da base científica, a prática de Sidnei também é guiada por seus valores cristãos, oferecendo um espaço de acolhimento, respeito e humanização em cada sessão.
               Para sua comodidade, o link da sessão é enviado minutos antes do atendimento.
       
               </p>
@@ -39,8 +39,8 @@ const About = () => {
             </div>
 
             <div className="text-center mt-8">
-              <a href="#contato" className="btn-primary inline-block">
-                TOQUE AQUI E FALE COMIGO
+              <a href="#home" className="btn-primary inline-block">
+                AGENDE JÁ!
               </a>
             </div>
           </div>

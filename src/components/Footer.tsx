@@ -22,13 +22,13 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://www.instagram.com/papolivre_sidneipsi"
+                href="https://www.instagram.com/quesadapsicologia?utm_source=qr&igsh=bHQ3OTVrbG0wbHpn"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 hover:text-primary-400 transition-colors"
               >
                 <FiInstagram className="w-5 h-5" />
-                <span>@papolivre_sidneipsi</span>
+                <span>@quesadapsicologia</span>
               </a>
 
               <a

@@ -36,8 +36,8 @@ const WhyChoose = () => {
         </div>
 
         <div className="text-center mt-12">
-          <a href="#contato" className="btn-primary inline-block">
-            ENTRE EM CONTATO AGORA MESMO!
+          <a href="#home" className="btn-primary inline-block">
+            MARQUE SUA CONSULTA AGORA MESMO!
           </a>
         </div>
       </div>

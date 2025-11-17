@@ -5,18 +5,28 @@ const HowItWorks = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Como funciona a psicoterapia online?
+              Como funciona a psicoterapia on-line?
             </h2>
           </div>
 
           <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
             <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
               <p>
-                É o meio de fazer terapia e se cuidar que é perfeito para aquela pessoa que trabalha ou estuda e se deslocar para um consultório demandaria tempo e energia, sendo mais agradável poder fazer terapia <strong>de casa mesmo</strong>. Ou para aquela pessoa que encontrou uma psicóloga como eu que você se identifica, mas mora em <strong>outra cidade ou estado.</strong>
+              A psicoterapia on-line é uma forma prática e segura de realizar seu 
+              acompanhamento psicológico sem precisar se deslocar até um consultório. 
+              Ela é ideal para quem tem rotina intensa de trabalho ou estudos, ou para 
+              quem deseja ser atendido por um <strong>psicólogo TCC</strong> mesmo 
+              morando em <strong>outra cidade ou estado</strong>.
               </p>
-              
+
               <p>
-                É um meio <strong>100% seguro</strong> e sigiloso de se cuidar de onde estiver. É <strong>altamente eficiente</strong> e muitos estudos atestam isso. A sessão de terapia on-line proporciona resultados incríveis, dando mais comodidade, engajamento e confiança para o paciente.
+                As sessões acontecem por videochamada, em um ambiente 
+                <strong> 100% sigiloso</strong>, com a mesma qualidade e eficácia do 
+                atendimento presencial. A abordagem em 
+                <strong>Terapia Cognitivo-Comportamental (TCC)</strong> permite resultados 
+                consistentes no tratamento da ansiedade, depressão, autoestima e outros 
+                desafios emocionais, oferecendo mais comodidade, acolhimento e 
+                continuidade no processo terapêutico.
               </p>
             </div>
           </div>

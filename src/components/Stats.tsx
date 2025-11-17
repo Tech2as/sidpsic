@@ -1,13 +1,13 @@
-import { FiMapPin } from "react-icons/fi";
+import { FiMapPin, FiAward  } from "react-icons/fi";
 import { FcTabletAndroid } from "react-icons/fc";
 
 
 
 const Stats = () => {
-  const stats = [
-    { number: '9+', label: 'Anos de experiência' },
-    { number: '110+', label: 'Atendimentos' },
-    { number: <FcTabletAndroid/>, label: 'Atendimento online' },
+    const stats = [
+    { number: <FiAward />, label: 'Formação em Terapia Cognitivo-Comportamental' },
+    { number: '24h', label: 'Apoio psicológico flexível' },
+    { number: <FcTabletAndroid />, label: 'Atendimento psicológico online' },
     { number: <FiMapPin />, label: 'Consultório em Novo Horizonte - SP' },
   ]
 
