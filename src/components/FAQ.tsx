@@ -35,6 +35,11 @@ const faqs = [
     answer:
       'Sim. Todas as sessões com o Psicólogo Sidnei, tanto on-line quanto presenciais em Novo Horizonte – SP, possuem métodos de pagamento seguros e confiáveis. Os dados são protegidos e você escolhe entre Pix, transferência ou outras opções. Para solicitações como laudo psicológico, terapia infantil, terapia de casal ou tratamento de ansiedade, o processo é sempre transparente e realizado dentro das normas profissionais.',
   },
+   {
+    question: "Quais as formações do psicólogo Sidnei?",
+    answer: "Universidade Paulista (UNIP) - Psicologia - 2010; Pós-graduação em Terapia Cognitivo-Comportamental (TCC); Pós-graduação em Terapia Junguiana; Pós-graduação em Neuropsicologia; Formação em Hipnose Clínica",
+    
+  },
 ]
 
 
